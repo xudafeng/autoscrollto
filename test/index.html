@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title></title>
+<style>
+#content {
+
+}
+#content .section {
+  margin-bottom: 20px;
+  padding: 20%;
+  text-align: center;
+  border: 1px dashed gray;
+}
+#print {
+  position: fixed;
+  top: 5px;
+  right: 0px;
+  border: 1px solid red;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+  <div id="content">
+    <p id="print"><p>
+    <div class="section">
+      section-1
+    </div>
+    <div class="section">
+      section-2
+    </div>
+    <div class="section">
+      section-3
+    </div>
+    <div class="section">
+      section-4
+    </div>
+    <div class="section">
+      section-5
+    </div>
+    <div class="section">
+      section-6
+    </div>
+    <div class="section">
+      section-7
+    </div>
+    <div class="section">
+      section-8
+    </div>
+    <div class="section">
+      section-9
+    </div>
+    <div class="section">
+      section-10
+    </div>
+    <div class="section">
+      section-11
+    </div>
+    <div class="section">
+      section-12
+    </div>
+  </div>
+<script src="../lib/autoscrollto.js"></script>
+<script>
+  const { AutoScrollTo: Auto } = window.AutoScrollTo;
+  const autoScroll = new Auto();
+  setTimeout(() => {
+    autoScroll.scrollTo();
+  }, 1000);
+</script>
+</body>
+</html>
