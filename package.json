@@ -1,6 +1,6 @@
 {
   "name": "autoscrollto",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "auto scroll util like title",
   "keywords": ["scroll"],
   "main": "./lib/autoscrollto.js",
