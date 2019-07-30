@@ -17,7 +17,7 @@
 [download-image]: https://img.shields.io/npm/dm/autoscrollto.svg?style=flat-square
 [download-url]: https://npmjs.org/package/autoscrollto
 
-> the missing utilities of String
+> auto scroll util like title
 
 ## Installment
 
@@ -28,7 +28,11 @@ $ npm i autoscrollto --save-dev
 ## Usage
 
 ```javascript
-const AutoScrollTo = require('autoscrollto');
+import { AutoScrollTo } from 'autoscrollto';
+const autoScroll = new AutoScrollTo();
+setTimeout(() => {
+  autoScroll.scrollTo();
+}, 1000);
 ```
 
 <!-- GITCONTRIBUTOR_START -->
