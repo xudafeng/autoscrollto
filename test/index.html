@@ -63,7 +63,15 @@
       section-12
     </div>
   </div>
-<script src="../lib/autoscrollto.js"></script>
+<script>
+  const isOnline = !!~location.host.indexOf('github');
+  const script = document.createElement('script');
+  script.type = 'text/javascript';
+  const isUITest = navigator.userAgent.includes('macaca');
+  script.src = `../${isUITest ? 'dist' : 'lib'}/autoscrollto.js`;
+  const head = document.getElementsByTagName('head')[0];
+  head.appendChild(script);
+</script>
 <script>
   const { AutoScrollTo: Auto } = window.AutoScrollTo;
   const autoScroll = new Auto({
