@@ -67,7 +67,7 @@
   const isOnline = !!~location.host.indexOf('github');
   const script = document.createElement('script');
   script.type = 'text/javascript';
-  const isUITest = navigator.userAgent.includes('Macaca Custom UserAgent');
+  const isUITest = navigator.userAgent.includes('macaca');
   script.src = `../${isUITest ? 'dist' : 'lib'}/autoscrollto.js`;
   const head = document.getElementsByTagName('head')[0];
   head.appendChild(script);
