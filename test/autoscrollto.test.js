@@ -15,7 +15,7 @@ describe('./test/autoscrollto.test.js', () => {
       .initWindow({
         width: 375,
         height: 600,
-        deviceScaleFactor: 2
+        deviceScaleFactor: 2,
       });
   });
 
@@ -38,7 +38,19 @@ describe('./test/autoscrollto.test.js', () => {
     it('render should be ok', () => {
       return driver
         .getUrl(`${BASE_URL}`)
-        .sleep(5000);
+        .sleep(1000)
+        .execute('window.scrollTo(0, 600)')
+        .sleep(1000)
+        .getUrl(`${BASE_URL}`)
+        .sleep(1000)
+        .execute('window.scrollTo(0, 600)')
+        .sleep(1000);
+    });
+
+    it('render should be ok', () => {
+      return driver
+        .getUrl(`${BASE_URL}`)
+        .sleep(3000);
     });
   });
 });
