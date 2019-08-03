@@ -14,6 +14,7 @@
     "lib/*.js"
   ],
   "devDependencies": {
+    "dom-event-simulate": "^1.1.1",
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "*",

@@ -63,6 +63,7 @@
       section-12
     </div>
   </div>
+<script src="../node_modules/dom-event-simulate/lib/dom-event-simulate.js"></script>
 <script>
   const isOnline = !!~location.host.indexOf('github');
   const script = document.createElement('script');
@@ -73,13 +74,14 @@
   head.appendChild(script);
 </script>
 <script>
-  const { AutoScrollTo: Auto } = window.AutoScrollTo;
-  const autoScroll = new Auto({
-    pageNumber: 5,
-  });
   setTimeout(() => {
+    const { AutoScrollTo: Auto } = window.AutoScrollTo;
+    const autoScroll = new Auto({
+      pageNumber: 5,
+    });
+
     autoScroll.scrollTo();
-  }, 1000);
+  }, 100);
 </script>
 </body>
 </html>
