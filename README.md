@@ -28,11 +28,11 @@ $ npm i autoscrollto --save-dev
 ## Usage
 
 ```javascript
-import { AutoScrollTo } from 'autoscrollto';
-const autoScroll = new AutoScrollTo();
-setTimeout(() => {
-  autoScroll.scrollTo();
-}, 1000);
+const { AutoScrollTo: Auto } = window.AutoScrollTo;
+const autoScroll = new Auto({
+  pageNumber: 5,
+});
+autoScroll.scrollTo();
 ```
 
 <!-- GITCONTRIBUTOR_START -->
