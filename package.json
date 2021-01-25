@@ -19,7 +19,7 @@
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "*",
     "husky": "*",
-    "macaca-cli": "3",
+    "macaca-cli": "2",
     "macaca-electron": "9",
     "macaca-wd": "3",
     "mocha": "*",
