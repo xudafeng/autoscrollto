@@ -22,7 +22,7 @@
     "macaca-cli": "2",
     "macaca-electron": "9",
     "macaca-wd": "3",
-    "mocha": "*",
+    "mocha": "6",
     "nyc": "*",
     "startserver": "^1.3.8"
   },
