@@ -1,6 +1,6 @@
 {
   "name": "autoscrollto",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "auto scroll util like title",
   "keywords": [
     "scroll"
@@ -19,8 +19,8 @@
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "*",
     "husky": "*",
-    "macaca-cli": "2",
-    "macaca-electron": "2",
+    "macaca-cli": "3",
+    "macaca-electron": "9",
     "macaca-wd": "3",
     "mocha": "*",
     "nyc": "*",
