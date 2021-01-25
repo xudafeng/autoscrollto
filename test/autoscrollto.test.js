@@ -1,6 +1,5 @@
 'use strict';
 
-const assert = require('assert');
 const { webpackHelper } = require('macaca-wd');
 
 const {
