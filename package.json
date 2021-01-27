@@ -1,6 +1,6 @@
 {
   "name": "autoscrollto",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "auto scroll util like title",
   "keywords": [
     "scroll"
@@ -24,7 +24,7 @@
     "macaca-wd": "3",
     "mocha": "6",
     "nyc": "*",
-    "startserver": "^1.3.8"
+    "startserver": "1"
   },
   "scripts": {
     "dev": "startserver -s -p 8000",
